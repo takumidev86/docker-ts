@@ -6,7 +6,8 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
-    'standard'
+    'standard',
+    'plugin:prettier/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -19,11 +20,13 @@ module.exports = {
   plugins: [
     'react',
     '@typescript-eslint',
-    'jest'
+    'jest',
+    'prettier'
   ],
   rules: {
     'no-use-before-define': 'off',
-    '@typescript-eslint/no-use-before-define': ['error']
+    '@typescript-eslint/no-use-before-define': ['error'],
+    'prettier/prettier': 'error'
   },
   settings: {
     react: {

@@ -1,1 +1,1 @@
-# docker + React + Typescript + pritter + elint + material-ui
+# docker + React + Typescript + pritter + eslint + material-ui
